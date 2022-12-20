@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	font-size: 40px;
+	color: whitesmoke;
+	background-color: purple;
+}
+
+h2 {
+	text-decoration: underline;
+	margin-top: 5px;
+	font-size: 32px;
+	background-color: lightblue;
+	margin-bottom: 10px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+
+.maincontainer {
+	width: 1800px;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.container {
+	min-height: 300px;
+	width: 1600px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	position: relative;
+}
+
+
+.image {
+	height: 200px;
+	position: absolute;
+	top: 25%;
+	right: 8%;
+}
+
+.container h6 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.container2 {
+	width: 1600px;
+	min-height: 250px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.container2 li {
+	margin-top: 10px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+.container3 {
+	width: 1600px;
+	min-height: 300px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.container3 input {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.submit {
+	background-color: green;
+	padding: 10px 30px;
+}
+
+.reset {
+	background-color: red;
+	padding: 10px 30px;
+}
+
+input[type=checkbox]{
+	accent-color: #00ff40;
+	margin-left: 20px;
+}
+
+input[type=radio]{
+	accent-color: yellow; 
+	margin-left: 20px;
+}
+
+input[type=text]{
+	margin: 2px;
+	padding: 5px;
+}
